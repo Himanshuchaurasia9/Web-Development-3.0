@@ -75,7 +75,7 @@ Follow the steps below to set up the project locally:
 
 We welcome all contributions, whether it’s a small bug fix or a big feature. To get started, follow these steps:
 
-1. Check out our [CONTRIBUTING.md](link_to_contributing.md) file for detailed guidelines.
+1. Check out our [CONTRIBUTING.md](https://github.com/GFGRBU/Web-Development-3.0/blob/main/CONTRIBUTING.md) file for detailed guidelines.
 2. Browse our [Issues](link_to_issues) page for available tasks.
 3. Make sure to follow the guidelines and coding standards mentioned in the `CONTRIBUTING.md`.
 4. After making your changes, submit a Pull Request (PR) for review.
