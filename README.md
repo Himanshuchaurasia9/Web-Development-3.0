@@ -6,7 +6,7 @@ Welcome to **Web-Development-3.0**! 🎉 This is an open-source web development 
 
 ## 🌟 **About the Project**
 
-This project is aimed at building **[brief description of the project]**. The project is part of Hacktoberfest, a month-long celebration of open-source, and we are thrilled to invite contributions from the community!
+This project is aimed at building **a community of open-source contributors as well as enhancing GitHub and Coding Skills**. The project is part of Hacktoberfest, a month-long celebration of open-source, and we are thrilled to invite contributions from the community!
 
 We have a variety of beginner-friendly and intermediate projects to work on, including:
 
@@ -84,20 +84,6 @@ We encourage contributions of all types, including code, documentation, bug repo
 
 ---
 
-## 💻 **Project Ideas**
-
-If you’re looking for beginner-friendly ideas, here are some options to get started with:
-
-1. **Personal Portfolio Website**
-2. **Simple Blog Platform**
-3. **To-Do List App**
-4. **Weather App**
-5. **Simple REST API**
-
-Check the `Issues` section for more project ideas and detailed feature requests.
-
----
-
 ## 🎃 **Hacktoberfest Participation**
 
 This project is part of Hacktoberfest! To participate:
@@ -109,18 +95,20 @@ This project is part of Hacktoberfest! To participate:
 Happy contributing! 🧑‍💻
 
 ---
-
+<!--
 ## 📜 **License**
 
 This project is licensed under the **[Your License]** License. See the [LICENSE](link_to_license) file for details.
-
----
+-->
 
 ## 🎯 **Project Maintainers**
 
 This project is maintained by:
-- **[Your Name]** - _Project Lead_
-- **[Co-Maintainer’s Name]**
+- **Saket Rathi** - _Technical Lead_
+- **Vaishvik Jaiswal** - _Technical Co-Lead_
+- **Adesh Bode** - _Technical Elite Member_
+- **Ikshit Talera** - _Technical Elite Member_
+- **Shamika Aney** - _Technical Elite Member_
 
 Feel free to reach out to us for any questions or guidance.
 
@@ -130,6 +118,6 @@ Feel free to reach out to us for any questions or guidance.
 
 For any queries or discussions, please feel free to:
 - Open an issue on GitHub.
-- Join our [Discussion Forum/Channel] for real-time collaboration.
+- Join our [WhatsApp Group/Community] for real-time collaboration.
 
 We’re looking forward to your contributions!
