@@ -17,3 +17,4 @@ A task management system that allows users to create projects, add tasks, assign
   
 - **Backend & Database:**
   - Firebase (for authentication and real-time updates)
+(or any techstack of your choice)
