@@ -10,5 +10,5 @@ Build a movie search application using a movie API. Allow users to search for mo
 - Option to add movies to a “favorites” list.
 
 ## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript or any techstack of your choice
 - **API:** TMDb API
