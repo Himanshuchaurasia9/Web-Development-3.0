@@ -14,3 +14,4 @@ Create a real-time chat app where users can create rooms and chat with others in
 - **Frontend:** React.js, HTML, CSS
 - **Backend:** Node.js, Express
 - **Real-time Communication:** Socket.IO
+(Or any techstack of your choice)
