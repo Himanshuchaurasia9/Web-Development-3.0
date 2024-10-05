@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background color */
+}
+#calculator {
+    width: 320px;
+    background: #333; /* Dark background color for the calculator */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#result {
+    height: 60px;
+    width: 295px;
+    font-size: 28px;
+    text-align: right;
+    margin-bottom: 10px;
+    background: #222; /* Dark background for result input */
+    color: white; /* Text color for the result */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+button {
+    height: 60px;
+    font-size: 36px; /* Increased font size for buttons */
+    margin: 5px;
+    background: gray; /* Background color of buttons */
+    color: white; /* Text color for numbers */
+    border: none;
+    border-radius: 5px;
+    flex: 1; /* Make all buttons equal size */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+button:hover {
+    background: #555; /* Slightly darker on hover */
+}
+.operator {
+    color: orange; /* Text color for operators */
+}
+.ac-button {
+    background: orange; /* Background color for AC button */
+    color: white; /* Text color for AC button */
+}
+.equal-button {
+    background: green; /* Background color for = button */
+    color: white; /* Text color for = button */
+}
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+}
