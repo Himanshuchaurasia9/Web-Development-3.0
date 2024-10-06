@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<div id="calculator">
+    <input type="text" id="result" disabled> <!-- Display for the results -->
+    <div class="btn-container">
+        <button class="ac-button" onclick="clearAll()">AC</button>
+        <button class="operator" onclick="clearLast()">C</button>
+        <button class="operator" onclick="appendToResult('%')">%</button>
+        <button class="operator" onclick="appendToResult('/')">/</button>
+    </div>
+    <div class="btn-container">
+        <button onclick="appendToResult('7')">7</button>
+        <button onclick="appendToResult('8')">8</button>
+        <button onclick="appendToResult('9')">9</button>
+        <button class="operator" onclick="appendToResult('*')">*</button>
+    </div>
+    <div class="btn-container">
+        <button onclick="appendToResult('4')">4</button>
+        <button onclick="appendToResult('5')">5</button>
+        <button onclick="appendToResult('6')">6</button>
+        <button class="operator" onclick="appendToResult('-')">-</button>
+    </div>
+    <div class="btn-container">
+        <button onclick="appendToResult('1')">1</button>
+        <button onclick="appendToResult('2')">2</button>
+        <button onclick="appendToResult('3')">3</button>
+        <button class="operator" onclick="appendToResult('+')">+</button>
+    </div>
+    <div class="btn-container">
+        <button onclick="appendToResult('0')">0</button>
+        <button onclick="appendToResult('00')">00</button>
+        <button onclick="appendToResult('.')">.</button>
+        <button class="equal-button" onclick="calculateResult()">=</button>
+    </div>
+</div>
+
+<script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
