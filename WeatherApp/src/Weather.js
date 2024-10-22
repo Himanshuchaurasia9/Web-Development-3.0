@@ -19,8 +19,8 @@ function Weather() {
         let data=await response.json();
         const humidity=document.getElementsByClassName("humidity");
         const temp=document.getElementsByClassName("temp");
-        const wind=document.getElementsByClassName("wind");
         const place=document.getElementsByClassName("place")
+        const wind=document.getElementsByClassName("wind");
 
         humidity[0].innerHTML= data.main.humidity+"%";
         temp[0].innerHTML=Math.floor(data.main.temp)+"°C";
@@ -67,7 +67,7 @@ function Weather() {
             <div className='bottom-in'>
                 <img src='Img/humidity.png'/>
                 <div className='data'>
-                    <div className='humidity'>50%</div>
+                    <div className='humidity'>40%</div>
                     <div className='text'>Humidity</div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ function Weather() {
             <div className='bottom-in'>
                 <img src='Img/wind.png'/>
                 <div className='data'>
-                    <div className='wind'>18km/h</div>
+                    <div className='wind'>15km/h</div>
                     <div className='text'>Wind Speed</div>
                 </div>
             </div>
