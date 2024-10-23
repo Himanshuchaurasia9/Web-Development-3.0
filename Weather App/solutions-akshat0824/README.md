@@ -39,10 +39,6 @@ Install the required Python packages:
 pip install Flask requests python-dotenv
 ```
 
-Navigate back to the root of the project (where package.json is located):
-```bash
-cd ..
-```
 Install the required npm packages:
 ```bash
 npm install axios bootstrap
