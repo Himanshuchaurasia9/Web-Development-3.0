@@ -1,0 +1,6 @@
+[submodule "Blog-App/blogbyice/blogxbackend"]
+	path = Blog-App/blogbyice/blogxbackend
+	url = https://github.com/iceXshadow/blogxbackend.git
+[submodule "Blog-App/blogbyice/blogxfrontend"]
+	path = Blog-App/blogbyice/blogxfrontend
+	url = https://github.com/iceXshadow/blogxfrontend.git
