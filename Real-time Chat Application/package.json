@@ -1,0 +1,17 @@
+{
+  "name": "real-time-chat-application",
+  "version": "1.0.0",
+  "description": "This is a real time chat application built using nodeJS and reactJS",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "api": "npm start --prefix api",
+    "dev": "concurrently \"npm run api\" \"npm run client\"",
+    "postinstall": "npm install --prefix client && npm install --prefix api"
+  },
+  "author": "Sanjay R",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
