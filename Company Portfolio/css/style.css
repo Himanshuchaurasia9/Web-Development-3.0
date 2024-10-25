@@ -1,0 +1,140 @@
+/* nav-section */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1, p, .row, .col{
+    margin: 0;
+    padding: 0;
+}
+.client, .business, .home-left, .home-right, .demo, .marketing{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.navbar, .tim-smith, .business, .demo{
+    background: #F5F7FA;   
+}
+form .btn{
+    background: #4CAF4F;
+    color: white;
+}
+form .nav-link-2{
+    text-decoration: none;
+    color: #4CAF4F;
+}
+/* home-section */
+.home{
+    background: #F5F7FA;
+}
+.home-left{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.my-btn{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    background: #4CAF4F;
+    color: white;
+    border: none;
+}
+.my-btn2{
+    border-radius: 2px;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    background: #439d46;
+    color: white;
+    border: none; 
+}
+.logo-list{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.h-p{
+    text-align: center;
+}
+b{
+    color: #4CAF4F;
+}
+.b-box {
+    display: flex;
+    gap: 10px;
+}
+@media screen and(max-with:500px){
+    .footer{
+        text-align: center;
+    }
+}   
+
+
+
+.b-box img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Optional: Adds space between images */
+}
+
+.b-box a {
+    display: block;
+    margin-top: 10px; /* Optional: Adds space above the link */
+}
+.b-box a {
+    display: block;
+    margin-top: 10px; /* Optional: Adds space above the link */
+}
+
+.boy-box a{
+    font-weight: 600;
+    font-size: large;
+    text-decoration: none;
+    color: #4CAF4F;
+}
+
+/* footer-section */
+.footer{
+    color: white;
+    background: rgb(8, 8, 42);
+    padding-top: 50px;
+}
+.footer-icon a{
+    list-style: none;
+    line-height: 50px;
+    gap: 10px;
+    font-size: x-large;
+}
+.footer img{
+    color: white;
+}
+.footer-icon li {
+   list-style: none;
+
+}
+.footer-icon li a{
+  color: white;
+}
+.my-text{
+    border-radius: 5px;
+    padding: 5px;
+}
+h6{
+    font-size: xx-large;
+}
+.my-lsts{
+    list-style: none;
+}
+.my-lsts a{
+    text-decoration: none;
+    color: rgb(169, 164, 164);
+}
+.footer .footer-row{
+    margin-left: 0;
+    margin-right: 0;
+}
